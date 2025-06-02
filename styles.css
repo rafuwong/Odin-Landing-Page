@@ -40,7 +40,10 @@ button {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
-    /* padding: 0; */
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .header p {
@@ -58,6 +61,7 @@ button {
     color: #F9FAF8;
     margin-bottom: 50px;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .awesome-left {
@@ -93,6 +97,7 @@ button {
     align-items: center;
     margin-bottom: 100px;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .image-caption {
@@ -114,7 +119,7 @@ button {
 
 .quote-section {
     background-color: #E5E7EB;
-    font-size: 30px;
+    font-size: 24px;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -127,7 +132,7 @@ button {
 }
 
 .quote-section .author {
-    font-size: 24px;
+    font-size: 18px;
     text-align: end;
     margin-right: 210px;
 }
