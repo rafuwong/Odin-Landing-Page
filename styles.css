@@ -172,3 +172,16 @@ button {
     color: #F9FAF8;
     justify-content: center;
 }
+
+/* BUTTON LINK */
+.button-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.button-link:hover {
+  background-color: #0056b3;
+}
